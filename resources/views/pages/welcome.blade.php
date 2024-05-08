@@ -153,7 +153,7 @@
         <div class="form-group">
           <label for="id_alternatif_2">Layanan Dipesan</label>
           <select class="form-select" id="id_alternatif_2" name="id_alternatif_2" required>
-            <option selected>Pilih Layanan</option>
+            <option selected>Pilih yayanan</option>
             @foreach ($dataAlternatifPesanan as $pesanan)
             <option value="{{ $pesanan->alternatif->id }}">{{ $pesanan->alternatif->nama }}</option>
             @endforeach
